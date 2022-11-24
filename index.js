@@ -2,21 +2,21 @@ var readlineSync = require('readline-sync');
 let userName = readlineSync.question(`What's your name?`)
 console.log('Welcome ' + userName + '. How well do you know Aparnabharati ?' + ` Let's take a quiz, shall we ?`)
 
-let counter = 0
+let counter = 0;
 
 let quiz = (question, answer) => {
   let userAnswer = readlineSync.question(question)
 
   if (userAnswer === answer) {
     console.log('Correct!')
-    counter++
+    counter++;
 
   } else {
-    console.log('Oops, Wrong Answer *.*')
+    console.log('Oops, Wrong Answer *.*');
   }
 
-  console.log('Current Score : ', counter)
-  console.log('----------------')
+  console.log('Current Score : ', counter);
+  console.log('----------------');
 
 
 }
