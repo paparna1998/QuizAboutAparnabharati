@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 let userName = readlineSync.question(`What's your name?`)
-console.log('Welcome ' + userName + '. How well do you know Amulya ?' + ` Let's take a quiz, shall we ?`)
+console.log('Welcome ' + userName + '. How well do you know Aparnabharati ?' + ` Let's take a quiz, shall we ?`)
 
 let counter = 0
 
